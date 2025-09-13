@@ -1,0 +1,2 @@
+bob|April 20, 2025 at 7:32p.m.|1220.0|Big Mac,McFlurry Regular
+bob|April 20, 2025 at 7:33p.m.|1510.0|Cheeseburger,Big Mac,McFlurry Regular

@@ -1,0 +1,34 @@
+# McDonald's Nutrition Tracker Plan (NOT FINAL, JUST INITIAL PLAN)
+
+## 1. Tracking McDonald's Menu Items
+- Store nutritional information (calories, protein, carbs, sugars, fat) for the following items:
+  - Big Mac
+  - McChicken
+  - Filet-O-Fish
+  - Cheeseburger
+  - Fries (Small, Medium, Large)
+  - McFlurry (Regular, Snack Size)
+
+## 2. Logging User Meal Data
+- Ask for the user’s name and their daily calorie goal.
+- Allow users to select food items from the menu.
+- Log the nutritional info of the selected food into their personal log.
+
+## 3. Meal Suggestions for Next Visit
+- Based on the user’s previous intake, suggest a meal that helps them stay within their calorie goal.
+- Recommend lower calorie or higher protein meals depending on their goals.
+
+## 4. Data Storage
+HashMaps
+ Used for:
+  - User calorie goals (`userData`).
+  - User meal logs (`userLogs`).
+  - Total calorie intake (`userIntakeComparison`).
+  - Meal suggestions (`mealSuggestions`).
+  - Nutritional information for menu items (`itemNutrition`).
+
+ArrayLists
+ Used for:
+  - Logging meals eaten by users.
+  - Storing nutritional details (calories, protein,....) for each menu item.
+  - Providing meal suggestion.

@@ -1,0 +1,67 @@
+/* styles.css */
+
+/* Base Appearance: Set the default font and background gradient for the entire application */
+.root {
+    -fx-font-family: "Helvetica", "Arial", sans-serif;
+    -fx-background-color: linear-gradient(to bottom, #ffffff, #f2f2f2);
+}
+
+/* Header Labels: Main title styling for headers */
+.header-label {
+    -fx-font-size: 28px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333333;
+}
+
+/* Welcome Subtitle: Styling for the subtitle under the header */
+.welcome-subtitle {
+    -fx-font-size: 16px;
+    -fx-text-fill: #666666;
+}
+
+/* Text Fields: Appearance for input fields */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 3;
+    -fx-background-radius: 3;
+    -fx-padding: 5;
+}
+
+/* Buttons: Modern button styling with accent color, rounded corners, and drop shadow */
+.button {
+    -fx-background-color: #ffcc00;
+    -fx-text-fill: #333333;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-padding: 5 10 5 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.2), 5, 0, 0, 2);
+}
+
+/* Left Dashboard Pane: Styling for the left navigation panel */
+.left-dashboard {
+    -fx-background-color: #eeeeee;
+    -fx-padding: 15;
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1;
+}
+
+/* Main Content Area: Styling for the central pane where dynamic content is loaded */
+.content-pane {
+    -fx-background-color: #ffffff;
+    -fx-padding: 15;
+}
+
+/* Order Summary Panel: Styling for the persistent right-side panel that shows the current order */
+.order-summary {
+    -fx-background-color: #f9f9f9;
+    -fx-padding: 15;
+    -fx-border-color: #dddddd;
+    -fx-border-width: 1;
+}
+
+/* Status Bar: Styling for the bottom status bar */
+.status-bar {
+    -fx-font-size: 14px;
+    -fx-text-fill: #444444;
+}
